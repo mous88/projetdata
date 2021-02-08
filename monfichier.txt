@@ -2,3 +2,15 @@
 mange mange le couscous 
 à la maison 
 import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+#### packages gestion valeur manquantes
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+# les outils de machine learning
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+import seaborn as sns
